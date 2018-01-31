@@ -1,5 +1,8 @@
 #include "dxbc_chunk_isgn.h"
 
+#include <cctype>
+#include <array>
+
 namespace dxvk {
   
   DxbcIsgn::DxbcIsgn(DxbcReader reader) {

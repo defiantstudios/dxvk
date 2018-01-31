@@ -6,6 +6,8 @@
 
 #include "../test_utils.h"
 
+#include <array>
+
 using namespace dxvk;
 
 struct Extent2D {

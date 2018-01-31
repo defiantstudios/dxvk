@@ -1,5 +1,7 @@
 #include "dxbc_defs.h"
 
+#include <array>
+
 namespace dxvk {
   
   const std::array<DxbcInstFormat, 207> g_instructionFormats = {{

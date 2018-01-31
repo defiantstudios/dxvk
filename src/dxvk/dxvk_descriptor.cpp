@@ -1,5 +1,7 @@
 #include "dxvk_descriptor.h"
 
+#include <array>
+
 namespace dxvk {
   
   DxvkDescriptorAlloc::DxvkDescriptorAlloc(

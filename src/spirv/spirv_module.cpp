@@ -1,5 +1,7 @@
 #include "spirv_module.h"
 
+#include <array>
+
 namespace dxvk {
   
   SpirvModule:: SpirvModule() {

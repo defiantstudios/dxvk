@@ -2,6 +2,8 @@
 
 #include "../util_env.h"
 
+#include <array>
+
 namespace dxvk {
   
   Logger::Logger(const std::string& file_name)

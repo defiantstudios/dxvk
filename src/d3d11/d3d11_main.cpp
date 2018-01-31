@@ -1,3 +1,8 @@
+#ifdef _MSC_VER
+#  define D3D11CreateDevice D3D11CreateDevice_disabled
+#  define D3D11CreateDeviceAndSwapChain D3D11CreateDeviceAndSwapChain_disabled
+#endif
+
 #include <array>
 
 #include "../dxgi/dxgi_adapter.h"
@@ -5,6 +10,11 @@
 
 #include "d3d11_device.h"
 #include "d3d11_enums.h"
+
+#ifdef _MSC_VER
+#  undef D3D11CreateDevice
+#  undef D3D11CreateDeviceAndSwapChain
+#endif
 
 namespace dxvk {
   Logger Logger::s_instance("d3d11.log");

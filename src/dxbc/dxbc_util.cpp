@@ -1,5 +1,7 @@
 #include "dxbc_util.h"
 
+#include <array>
+
 namespace dxvk {
   
   uint32_t computeResourceSlotId(

@@ -1,6 +1,7 @@
 #pragma once
 
 #include "dxvk_adapter.h"
+#include <array>
 
 namespace dxvk {
   

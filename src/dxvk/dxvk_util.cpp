@@ -1,4 +1,5 @@
 #include <cstring>
+#include <algorithm>
 
 #include "dxvk_util.h"
 

@@ -1,5 +1,7 @@
 #include "dxvk_format.h"
 
+#include <array>
+
 namespace dxvk {
   
   const std::array<DxvkFormatInfo, 147> g_formatInfos = {{

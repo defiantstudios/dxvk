@@ -1,5 +1,15 @@
+#ifdef _MSC_VER
+#  define CreateDXGIFactory CreateDXGIFactory_disabled
+#  define CreateDXGIFactory1 CreateDXGIFactory1_disabled
+#endif
+
 #include "dxgi_factory.h"
 #include "dxgi_include.h"
+
+#ifdef _MSC_VER
+#  undef CreateDXGIFactory 
+#  undef CreateDXGIFactory1
+#endif
 
 namespace dxvk {
   

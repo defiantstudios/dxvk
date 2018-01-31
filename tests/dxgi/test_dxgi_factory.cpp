@@ -1,4 +1,5 @@
 #include <vector>
+#include <array>
 
 #include <dxgi.h>
 
@@ -6,6 +7,7 @@
 #include <windowsx.h>
 
 #include "../test_utils.h"
+
 
 using namespace dxvk;
 

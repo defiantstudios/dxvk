@@ -8,6 +8,10 @@
 #include "d3d11_device_child.h"
 #include "d3d11_view.h"
 
+#if _MSC_VER
+   typedef BOOL WINBOOL;
+#endif
+
 namespace dxvk {
   
   class D3D11Device;

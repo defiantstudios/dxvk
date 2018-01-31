@@ -1,4 +1,5 @@
 #include <cstring>
+#include <array>
 
 #include <d3dcompiler.h>
 #include <d3d11.h>
