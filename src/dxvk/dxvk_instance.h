@@ -43,8 +43,9 @@ namespace dxvk {
     
   private:
     
-    Rc<vk::LibraryFn>   m_vkl;
-    Rc<vk::InstanceFn>  m_vki;
+    Rc<vk::LibraryFn>        m_vkl;
+    Rc<vk::InstanceFn>       m_vki;
+    VkDebugReportCallbackEXT m_drc;
     
     VkInstance createInstance();
     
